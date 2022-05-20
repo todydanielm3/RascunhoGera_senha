@@ -7,7 +7,7 @@ const gerarSenha = ()=>{
     
   for(let i = 1; i <= 12; i++){
     //Dicionario de todos os caracteres
-    senha += caracteres[Math.flor(Math.random() * caracteres.length)]
+    senha += caracteres[Math.floor(Math.random() * caracteres.length)]
     
   }
 
