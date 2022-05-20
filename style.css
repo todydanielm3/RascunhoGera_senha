@@ -20,6 +20,7 @@ body{
 div.gerador-senha{
   display:grid;
   grid-template-columns: 1fr;
+  text-align: center
 }
 
 
@@ -27,4 +28,24 @@ div.gerador-senha p{
   font-size: 3.2rem;
   color: white;
   margin: 1.2rem;
+}
+
+
+div.gerador-senha p::after{
+  content: "Copiado"
+  position: absolute;
+  font-size: 1.2rem;
+  color: white;
+  margin: 1.2rem;
+  background-color: mediumseagreen;
+  border-radius:5px;
+}
+
+div.gerador-senha button{
+ padding:1.2rem;
+ margin:1.2rem;
+ font-size:2.4rem;
+ border-radius: 5px;
+ border: 0  ;
+ background-color:rgba(147,112,219);
 }
