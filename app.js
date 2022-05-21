@@ -26,3 +26,9 @@ botaoGerarSenha.onclick = ()=>{
   gerarSenha() 
 
 }
+
+senhaElementos.onclick = ()=>{
+  navigator.clipboard.writeText(senhaElementos.textContent)
+
+  senhaElementos.classList.add("copiada")
+}

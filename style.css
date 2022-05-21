@@ -28,6 +28,8 @@ div.gerador-senha p{
   font-size: 3.2rem;
   color: white;
   margin: 1.2rem;
+  position: relative;
+  cursor: default;
 }
 
 
@@ -61,3 +63,16 @@ div.gerador-senha button{
  border: 0  ;
  background-color:rgba(147,112,219);
 }
+
+
+div.gerador-senha button:disabled{
+  cursor: default;
+
+}
+
+
+
+
+
+
+    
